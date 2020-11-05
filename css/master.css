@@ -1,0 +1,52 @@
+body{
+  background-color: #E0C829;
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+header, footer {
+background-color: #211E1C;
+min-height: 15vh;
+color: yellow;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+header a, footer a{
+  color: white;
+}
+article{
+  min-height: 10vh;
+}
+header ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+}
+.contenet{
+  border :2px solid: red;
+}
+.content video {
+  border: 2px solid: green;
+}
+.content p{
+flex-basis: 640px;
+padding: 1em;
+}
